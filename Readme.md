@@ -6,7 +6,7 @@ Existem duas formas de executar este projeto:
 
 ---
 
-### Opção A: Execução Local (com Ambiente Virtual)
+### Opção A: Execução Local com Ambiente Virtual
 
 1. Certifique-se de ter o Python 3.9+ instalado.
 2. Crie um ambiente virtual:
@@ -16,13 +16,11 @@ Existem duas formas de executar este projeto:
    - macOS/Linux: `source .venv/bin/activate`
 4. Instale as dependências:
    `pip install -r requirements.txt`
-5. Abra o VS Code e execute o notebook `analise_de_dados.ipynb`.
+5. Execute o notebook: `analise_de_dados.ipynb`.
 
 ---
 
-### Opção B: Execução com Docker (Garantia de Integridade)
-
-Este método garante 100% de reprodutibilidade, encapsulando todo o ambiente.
+### Opção B: Execução com Docker
 
 1. **Pré-requisito:** Ter o [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e em execução.
 
